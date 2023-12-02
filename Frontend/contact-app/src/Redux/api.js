@@ -2,7 +2,7 @@
 import axios from "axios";
 import { ADD_CONTACT, SET_CONTACTS } from "./actionType";
 
-const API_BASE_URL = 'http://localhost:7500/api/contacts';
+const API_BASE_URL = 'https://important-sunbonnet-slug.cyclic.app/api/contacts';
 
 export const fetchContacts = async () => {
   try {
